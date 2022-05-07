@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+
 
 
 
@@ -7,10 +7,10 @@ app = Flask(__name__)
 
 
 from os import environ
-app.config['SQLALCHEMY_DATABASE_URI'] = environ.get('DATABASE_URL')
+
 
 app.config['SECRET_KEY']= environ.get('SECRET_KEY')
-db = SQLAlchemy(app)
+
 
 
 
