@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+    <title>Document</title>
+</head>
+<body id="portfolio">
+    <div class="content-container">
+        <div id="content-container">
+        <div class="about-card">
+            <div class="profile-content">
+                <div>
+                    <h1>About Me</h1>
+                    <p>Nolusindiso Hleko is a multi-talented aspiring software engineer. Born in a tiny town called Jamestown in South Africa, Nolusindiso is currently a full-time student in Germany. She is now based in Busan, South Korea, which she has called home for the past five years. Although an engineering student first, she enjoys exploring her creative side through design. And with life spanned across three different countries on three continents, there is no doubt that she treats each day as an adventure. 
+                    <br>
+
+                        This portfolio is a demonstration of responsive design. The main focus is to demonstrate her understanding of responsive web design via HTML and CSS by exhibiting her work throughout the spring 2022 semester..</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="{{url_for('static', filename='images/Website.png')}}" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Blog Home Page</h2>
+                    <p>Full disclosure: I designed this website to fulfill the Software Engineering Basics (SE_01) and Web Development Basics (SE_19) requirements. These two modules were a primary motivation to take ID_19. Thus, the submission of this website as part of my portfolio can be deemed a triple submission, granted I was part of the foundation's course; therefore, SE_01 and SE_19 had one submission. <a href="https://soledad.pencidesign.net/soledad-simple/?demo=grid&sidebar=none">Here</a> is the workflow of how this website came to be.</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="images/grid-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Something something</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="images/grid-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Something something</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    {% endblock content %}
