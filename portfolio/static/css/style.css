@@ -6,7 +6,7 @@
 
 .profile-content h1{
     font-family: 'Arapey', serif;
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
 }
 
@@ -131,7 +131,10 @@ body{
     text-align: center;
     font-size: 30px;
 }
-
+.grid-box p{
+    grid-column: span 3;
+    padding: 20px;
+}
 
 .grid-box img{
     width: 100%;
@@ -221,9 +224,3 @@ body{
     }
     
 }
-.button {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #4CAF50;
-    size: 500px;
-  }

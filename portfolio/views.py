@@ -24,4 +24,8 @@ def workflow():
 def galleryworkflow():
     return render_template('gallery-workflow.html')
 
+@views.route('/std-grid')
+def StdGrid():
+    return render_template('standard-grid.html')
+
 

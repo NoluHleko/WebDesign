@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+                
+    <title>Normal Grid</title>
+</head>
+<body>
+    <div class="gallery-heading">
+        <a href="/portfolio"> <h1> Queens</h1></a>
+</div>
+    <div class="grid-box">
+        <p>This was my very first attempt at making a gallery with grids. I wanted to create an Instagram-like page. I do not have any sketches because I knew what I wanted to create and had no intentions of sharing this page with anyone. It was just for me to learn, but I kept it and figured it wouldn't hurt to put it here.
+            <br>
+
+            This is how I got to understand the grid-column relationship in practice. I did this by following this tutorial on <a href="https://www.youtube.com/watch?v=rnhoY5Cdmy0">YouTube.</a>  However, I wanted it to look like an Instagram gallery hence the three columns instead of four. All pictures are from <a href="https://www.pexels.com/">Pexels.</a></p>
+        <img src="{{url_for('static', filename='images/grid-1.jpg')}}" alt="">
+        <img src="{{url_for('static', filename='images/grid-2.jpg')}}" alt="">
+        <img src="{{url_for('static', filename='images/grid-3.jpg')}}" alt="">
+        <img src="{{url_for('static', filename='images/grid-4.jpg')}}" alt="">
+        <img src="{{url_for('static', filename='images/grid-12.jpg')}}" alt="">
+        <img src="{{url_for('static', filename='images/grid-6.jpg')}}" alt="">
+      
+        <img src="{{url_for('static', filename='images/grid-8.jpg')}}" alt="">
+        <img src="{{url_for('static', filename='images/grid-9.jpg')}}" alt="">
+        <img src="{{url_for('static', filename='images/grid-5.jpg')}}" alt="">
+        <img src="{{url_for('static', filename='images/grid-7.jpg')}}" alt="">
+        <img src="{{url_for('static', filename='images/grid-10.jpg')}}" alt="">
+        <img src="{{url_for('static', filename='images/grid-11.jpg')}}" alt="">  
+       
+    </div>
+
+
+{% endblock content %}
