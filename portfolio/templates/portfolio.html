@@ -3,9 +3,12 @@
 
 {% block content %}
 
+
+
     <title>Document</title>
 </head>
 <body id="portfolio">
+    
     <div class="content-container">
         <div id="content-container">
         <div class="about-card">
@@ -27,19 +30,19 @@
             <div class="content">
                 <div>
                     <h2>Blog Home Page</h2>
-                    <p>Full disclosure: I designed this website to fulfill the Software Engineering Basics (SE_01) and Web Development Basics (SE_19) requirements. These two modules were a primary motivation to take ID_19. Thus, the submission of this website as part of my portfolio can be deemed a triple submission, granted I was part of the foundation's course; therefore, SE_01 and SE_19 had one submission. <a href="https://soledad.pencidesign.net/soledad-simple/?demo=grid&sidebar=none">Here</a> is the workflow of how this website came to be.</p>
+                    <p>Full disclosure: I designed this website to fulfill the Software Engineering Basics (SE_01) and Web Development Basics (SE_19) requirements. These two modules were a primary motivation to take ID_19. Thus, the submission of this website as part of my portfolio can be deemed a triple submission, granted I was part of the foundation's course; therefore, SE_01 and SE_19 had one submission. <a href=workflow>Here</a> is the workflow of how this website came to be.</p>
                     
                 </div>
             </div>
         </div>
         <div class="card">
             <div class="img-box">
-                <img src="images/grid-2.jpg" alt="">
+                <img src="{{url_for('static', filename='images/travel-gallery.png')}}" alt="">
             </div>
             <div class="content">
                 <div>
-                    <h2>Something something</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2>Website Travel Gallery</h2>
+                    <p>This page is my take on the masonry design. Inspired by Pinterest (obviously), I wanted to have a page to display travel pictures. This was not only my way of practicing this design but also my way of expressing my love for travel and photography.  <a href="http://nolusindiso.herokuapp.com/travel">Here</a> is a live version of the page from the blog, and <a href="gallery-workflow">here</a> is the workflow.</p>
                 </div>
             </div>
         </div>

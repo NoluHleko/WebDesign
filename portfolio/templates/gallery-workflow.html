@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+                
+    <title>Normal Grid</title>
+</head>
+<body>
+    
+
+       
+  
+
+
+    <div class="gallery-heading"> <a href="/portfolio">
+    <h1>Travel Gallery</h1></a>
+</div>
+    <div class="grid-box" >
+        
+        <div class="grid-column-1" ><h2>  About this page</h2></div>
+        <div class="grid-column-2">
+            <p>
+                The design for this Travel Gallery started with a standard grid design.
+                I love structure and order; therefore, the initial plan for the gallery was different.
+                It was a traditional three-column design, but I decided to change it and challenge myself to do something different during the procedure. Not much thought went into the color scheme, though; similarities are coincidental.
+                <br>
+                This page is also fully responsive and only has one column on the mobile version.
+                 </p>
+        </div>
+        <img src="{{url_for('static', filename='images/work-flow-2-1.png')}}" alt="">
+        <img src="{{url_for('static', filename='images/work-flow-2-2.JPG')}}" alt="">
+        <img src="{{url_for('static', filename='images/work-flow-2-3.JPG')}}" alt="">
+        <img src="{{url_for('static', filename='images/work-flow-2-4.JPG')}}" alt="">
+         
+              
+        
+ 
+      
+        
+       
+       
+        
+      
+       
+    </div>
+
+    {% endblock content %}

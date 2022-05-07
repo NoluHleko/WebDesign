@@ -138,6 +138,7 @@ body{
     height: 100%;
     object-fit: cover;
 }
+
 .grid-column-1{
     grid-column: span 1;
 }
@@ -220,4 +221,9 @@ body{
     }
     
 }
-    
+.button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    size: 500px;
+  }
