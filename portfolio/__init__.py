@@ -7,8 +7,6 @@ app = Flask(__name__)
 
 
 from os import environ
-
-#app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///Weblog2022.db'
 app.config['SQLALCHEMY_DATABASE_URI'] = environ.get('DATABASE_URL')
 
 app.config['SECRET_KEY']= environ.get('SECRET_KEY')
