@@ -5,8 +5,6 @@
 }
 
 .profile-content h1{
-    font-family: 'Arapey', serif;
-    font-size: 80px;
     text-align: center;
 }
 
@@ -127,7 +125,6 @@ body{
     gap: var(--gap);
 }
 .gallery-heading{
-    font-family:  'Arapey',serif; 
     text-align: center;
     font-size: 30px;
 }
@@ -200,7 +197,7 @@ body{
 }
 
 @media screen and (max-width: 1024px){
-    .grid-box, #workflow,.grid-column-1,.grid-column-2{
+    .grid-box, #workflow,.grid-column-2,.grid-column-1 {
         --num-cols: 2;
         padding: 16px 40px;
 
@@ -208,7 +205,7 @@ body{
     .gallery-heading{
         font-size: 30px;
     }
-    
+   
 }
 
 @media screen  and (max-width: 600px){
@@ -218,6 +215,13 @@ body{
     .gallery-heading{
         font-size: 20px;
     }
+
+    .grid-column-1{
+        font-size: 16px;
+    }
     
 }
-    
+
+.content h2{
+    padding-bottom: 30px;
+}

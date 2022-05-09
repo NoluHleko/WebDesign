@@ -5,9 +5,9 @@
 }
 
 .profile-content h1{
-    font-family: 'Arapey', serif;
-    font-size: 60px;
+    padding-bottom: 30px;
     text-align: center;
+    font-size: 40px;
 }
 
 .profile-content p{
@@ -127,9 +127,14 @@ body{
     gap: var(--gap);
 }
 .gallery-heading{
-    font-family:  'Arapey',serif; 
+    padding-top: 30px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
+}
+
+.gallery-heading a{
+    color: black;
+
 }
 .grid-box p{
     grid-column: span 3;
@@ -223,4 +228,21 @@ body{
         font-size: 20px;
     }
     
+}
+
+a{
+    text-decoration: none;
+}
+p a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.grid-column-1 h2{
+    font-family: 'Open sans', sans-serif;
+    border-bottom: solid black 1px;
+    padding-bottom: 5px;
+
 }
