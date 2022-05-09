@@ -145,23 +145,24 @@ body{
 .grid-column-1, .grid-column-2{
     grid-row: span 1;
 }
+
 @media (max-width: 1000px){
     .content-container {
         grid-template-columns: repeat(auto-fit, minmax(100%,1fr));
         margin: 50px;
     }
-    .content-container .card{
+    .content-container, .card{
         flex-direction: row;
         margin: 10px 0;
     }
 
-    .content-container .card:nth-child(even)
+    .content-container, .card:nth-child(even)
     {
     flex-direction: row-reverse;
     }
 
-    .content-container .card .img-box,
-    .content-container .card .content{
+    .content-container, .card, .img-box,
+    .content-container, .card, .content{
         width: 50%;
     }
 
@@ -181,7 +182,7 @@ body{
     gap: var(--gap);
 
 }
-@media (max-width: 600px){
+@media (max-width: 768px){
      .content-container .card{
          flex-direction: column;
      }
@@ -192,6 +193,10 @@ body{
     .content-container .card .img-box,
     .content-container .card .content{
         width: 100%;
+    }
+
+    .profile-content .content p{
+        padding: 0 20px;
     }
 
 }
@@ -208,8 +213,8 @@ body{
    
 }
 
-@media screen  and (max-width: 600px){
-    .grid-box, #workflow, .grid-column-1,.grid-column-2 {
+@media screen  and (max-width: 768px){
+    .grid-box #workflow .grid-column-1 .grid-column-2 {
         --num-cols: 1;
     }
     .gallery-heading{
